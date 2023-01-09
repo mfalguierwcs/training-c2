@@ -1,4 +1,4 @@
-# Checkpoint 2
+# Training C2
 
 ## Steps
 
