@@ -18,8 +18,8 @@ export default function Home() {
           <h2>Etapes à réaliser : </h2>
           <ol>
             <li>
-              Ne commence pas à coder prend le temps de découvrir ce template de
-              projet fullstack réalisé avec Vitejs (arboresence, règles
+              Ne commence pas à coder, prends le temps de découvrir ce template
+              de projet fullstack réalisé avec Vitejs (arboresence, règles
               prettier, package.json, ...).
             </li>
             <li>

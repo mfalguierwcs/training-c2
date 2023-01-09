@@ -61,6 +61,7 @@ a:any-link {
   background-color: var(--light);
   padding: var(--spacing);
   display: flex;
+  margin-bottom: 1rem;
 }
 
 

@@ -12,11 +12,9 @@ export default function Simpsons() {
           </select>
         </label>
       </form>
-      <ul className="simpson-list">
-        <li className="simpson-item">
-          <SimpsonCard />
-        </li>
-      </ul>
+      <div className="simpson-list">
+        <SimpsonCard />
+      </div>
     </>
   );
 }
