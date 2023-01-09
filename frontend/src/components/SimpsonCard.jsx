@@ -1,11 +1,16 @@
 import PropTypes from "prop-types";
 
 export default function SimpsonCard({ simpson }) {
-  console.log(simpson);
   return (
     <div className="simpson-card">
       <img src={simpson.url} alt={simpson.name} />
-      <div>{simpson.name}</div>
+      <div>
+        <p>
+          <strong>{simpson.name}</strong>
+        </p>
+        <p>{simpson.gender}</p>
+        <p>"{simpson.best_quote}"</p>
+      </div>
     </div>
   );
 }
@@ -13,6 +18,8 @@ export default function SimpsonCard({ simpson }) {
 SimpsonCard.propTypes = {
   simpson: PropTypes.shape({
     name: PropTypes.string.isRequired,
+    best_quote: PropTypes.string.isRequired,
+    gender: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
   }),
 };
@@ -20,6 +27,9 @@ SimpsonCard.propTypes = {
 SimpsonCard.defaultProps = {
   simpson: {
     name: "Bart Simpson",
-    url: "https://static.wikia.nocookie.net/simpsons/images/a/aa/Bart_simpson.png",
+    best_quote: "Eat my shorts!",
+    gender: "Homme",
+    url:
+      "https://static.wikia.nocookie.net/simpsons/images/a/aa/Bart_simpson.png",
   },
 };

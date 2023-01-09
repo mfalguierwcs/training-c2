@@ -5,45 +5,117 @@
       "name": "Maggie Simpson",
       "url": "https://static.wikia.nocookie.net/simpsons/images/2/27/Maggie_Simpsons.png",
       "normalized_name": "maggie simpson",
-      "gender": 1
+      "category": 2,
+      "best_quote": "Daddy",
+      "gender": "Femme"
     },
     {
       "id": 71,
       "name": "Marge Simpson",
       "url": "https://static.wikia.nocookie.net/simpsons/images/a/a1/Marge_Simpsons.png",
       "normalized_name": "marge simpson",
-      "gender": 1
+      "category": 3,
+      "best_quote": "Now it's Marge's time to shine!",
+      "gender": "Femme"
     },
     {
       "id": 72,
       "name": "Bart Simpson",
       "url": "https://static.wikia.nocookie.net/simpsons/images/a/aa/Bart_simpson.png",
       "normalized_name": "bart simpson",
-      "gender": 0
+      "category": 2,
+      "best_quote": "Eat my shorts!",
+      "gender": "Homme"
     },
     {
       "id": 6660,
       "name": "Homer Simpson",
       "url": "https://static.wikia.nocookie.net/simpsons/images/3/33/Homer.png",
       "normalized_name": "homer simpson",
-      "gender": 0
+      "category": 3,
+      "best_quote": "Better them than me... Oh wait, that was me.",
+      "gender": "Homme"
     },
     {
       "id": 73,
       "name": "Lisa Simpson",
       "url": "https://static.wikia.nocookie.net/simpsons/images/b/b7/Lisa_Simpsons.png",
       "normalized_name": "lisa simpson",
-      "gender": 1
+      "category": 2,
+      "best_quote": "Quit it, Bart!",
+      "gender": "Femme"
+    },
+    {
+      "id": 74,
+      "name": "Santa's Little Helper",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/2/2c/Santa%27s_Little_Helper.png",
+      "normalized_name": "santa's little helper",
+      "category": 1,
+      "best_quote": "",
+      "gender": "Male"
+    },
+    {
+      "id": 75,
+      "name": "Snow ball",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/d/db/Snowball_V.png",
+      "normalized_name": "snow ball",
+      "category": 1,
+      "best_quote": "",
+      "gender": "Femelle"
+    },
+    {
+      "id": 76,
+      "name": "Abe Simpson II",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/d/db/Snowball_V.png",
+      "normalized_name": "abe simpson II",
+      "category": 4,
+      "best_quote": "Ahh!",
+      "gender": "Homme"
+    },
+    {
+      "id": 77,
+      "name": "Mona Penelope Simpson",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/5/52/IMG_1693.PNG",
+      "normalized_name": "mona penelope simpson",
+      "category": 4,
+      "best_quote": "It wasn't your fault, sweetie.",
+      "gender": "Femme"
+    },
+    {
+      "id": 78,
+      "name": "Patty Bouvier",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/5/54/Temp.png",
+      "normalized_name": "patty bouvier",
+      "category": 3,
+      "best_quote": "Some days at the DMV, we don't let the line move at all. We call those weekdays.",
+      "gender": "Femme"
+    },
+    {
+      "id": 79,
+      "name": "Selma Bouvier",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/b/ba/Selma_Bouvier.png",
+      "normalized_name": "selma bouvier",
+      "category": 3,
+      "best_quote": "Driver's License is on me!",
+      "gender": "Femme"
     }
   ],
-  "gender": [
+  "category": [
     {
       "id": 1,
-      "name": "Homme"
+      "name": "Animaux"
     },
     {
       "id": 2,
-      "name": "Femme"
+      "name": "Jeunes"
+    },
+    {
+      "id": 3,
+      "name": "Adultes"
+    },
+    {
+      "id": 4,
+      "name": "Vieux"
     }
   ]
 }

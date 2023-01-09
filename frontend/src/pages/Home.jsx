@@ -6,8 +6,8 @@ export default function Home() {
       <section className="home">
         <div>
           <p>
-            Ces exos d'entrainement utilisent une API locale utilisant JSON
-            Server, tu peux voir les ressources de l'api{" "}
+            Ces exercices d'entrainement utilisent une API locale piloté par le
+            module JSON Server, tu peux voir les ressources de la fausse api{" "}
             <a target="_blank" href="http://localhost:4000" rel="noreferrer">
               ici
             </a>
@@ -23,26 +23,35 @@ export default function Home() {
               prettier, package.json, ...).
             </li>
             <li>
-              Pour commencer dans <strong>Simpsons.jsx</strong>, fais une
-              requête (fetch ou axios comme tu préfères) pour récupérer la liste
-              des simpsons en utilisant l'api et enregistre le résultat dans un
-              state.
+              Dans <strong>Simpsons.jsx</strong>, fais une requête (fetch ou
+              axios comme tu préfères) pour récupérer la liste des simpsons en
+              utilisant l'api et enregistre le résultat dans un state.
             </li>
             <li>
               Utilise les données du state pour charger toutes les cartes
-              simpson (<strong>SimpsonCard.jsx</strong>) et passe en props un
-              objet simpson.
+              simpson (<strong>SimpsonCard.jsx</strong>) et passe les données de
+              state en props.
             </li>
             <li>
               Dans <strong>Simpsons.jsx</strong>, fais une autre requête qui
-              permet de charger les genres et stock les résultats dans un autre
-              state.
+              permet de charger les catgories de la famille et stock les
+              résultats dans un nouveau state.
             </li>
             <li>
-              Trouve un moyen de charger les données du state genre dans le
+              Trouve un moyen de charger les données du state categories dans le
               select
             </li>
-            <li>Filtre la liste de simpsons quand le filtre genre change.</li>
+            <li>
+              Filtre la liste de simpsons family quand le filtre catégories
+              change.
+            </li>
+            <li>
+              Ajoute un lien dans <strong>SimpsonCard.jsx</strong> qui pointe
+              vers une page dédiée servant à afficher en énorme la meilleur
+              citation du personnage. Si le personage n'a pas de citation
+              n'affiche pas de lien. Si on bookmark cette page on doit pouvoir
+              retrouver la citation.
+            </li>
           </ol>
         </div>
       </section>
