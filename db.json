@@ -3,7 +3,7 @@
     {
       "id": 67,
       "name": "Maggie Simpson",
-      "url": "https://static.wikia.nocookie.net/simpsons/images/2/27/Maggie_Simpsons.png",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/9/9d/Maggie_Simpson.png",
       "normalized_name": "maggie simpson",
       "category": 2,
       "best_quote": "Daddy",
@@ -12,7 +12,7 @@
     {
       "id": 71,
       "name": "Marge Simpson",
-      "url": "https://static.wikia.nocookie.net/simpsons/images/a/a1/Marge_Simpsons.png",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/4/4d/MargeSimpson.png",
       "normalized_name": "marge simpson",
       "category": 3,
       "best_quote": "Now it's Marge's time to shine!",
@@ -30,7 +30,7 @@
     {
       "id": 6660,
       "name": "Homer Simpson",
-      "url": "https://static.wikia.nocookie.net/simpsons/images/3/33/Homer.png",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png",
       "normalized_name": "homer simpson",
       "category": 3,
       "best_quote": "Better them than me... Oh wait, that was me.",
@@ -39,7 +39,7 @@
     {
       "id": 73,
       "name": "Lisa Simpson",
-      "url": "https://static.wikia.nocookie.net/simpsons/images/b/b7/Lisa_Simpsons.png",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/d/d5/Lisa_Simpson_official.png",
       "normalized_name": "lisa simpson",
       "category": 2,
       "best_quote": "Quit it, Bart!",
@@ -66,7 +66,7 @@
     {
       "id": 76,
       "name": "Abe Simpson II",
-      "url": "https://static.wikia.nocookie.net/simpsons/images/d/db/Snowball_V.png",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/a/a9/Abraham_Simpson.png",
       "normalized_name": "abe simpson II",
       "category": 4,
       "best_quote": "Ahh!",
