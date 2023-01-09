@@ -1,14 +1,6 @@
-import { useEffect } from "react";
 import SimpsonCard from "../components/SimpsonCard";
 
 export default function Simpsons() {
-  useEffect(() => {
-    fetch("http://localhost:4000/simpsons")
-      .then((response) => response.json())
-      .then((json) => {
-        console.log(json);
-      });
-  }, []);
   return (
     <>
       <h1>Famille Simpsons</h1>
