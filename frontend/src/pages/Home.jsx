@@ -13,7 +13,7 @@ export default function Home() {
             </a>
           </p>
           <p>
-            Tous les exercices d'entrainement sont a réaliser dans My simpsons.
+            Tous les exercices d'entrainement sont a réaliser dans Simpsons.
           </p>
           <h2>Etapes à réaliser : </h2>
           <ol>

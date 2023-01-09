@@ -3,11 +3,11 @@ import SimpsonCard from "../components/SimpsonCard";
 export default function Simpsons() {
   return (
     <>
-      <h1>My simpsons list</h1>
+      <h1>Mes simpsons</h1>
       <form className="center mb-1">
         <label htmlFor="gender-select">
-          Filter by <select id="gender-select">
-            <option value="">Please select a gender</option>
+          Filtrer par : <select id="gender-select">
+            <option value="">Genre</option>
           </select>
         </label>
       </form>

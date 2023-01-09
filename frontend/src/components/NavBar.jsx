@@ -5,10 +5,10 @@ export default function NavBar() {
     <nav className="navbar">
       <div>
         <NavLink className="mr-2" to="/">
-          Home
+          Accueil
         </NavLink>
         <NavLink className="mr-2" to="/simpsons">
-          My simpsons
+          Simpsons
         </NavLink>
       </div>
     </nav>

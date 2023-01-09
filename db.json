@@ -3,30 +3,35 @@
     {
       "id": 67,
       "name": "Maggie Simpson",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/2/27/Maggie_Simpsons.png",
       "normalized_name": "maggie simpson",
       "gender": 1
     },
     {
       "id": 71,
       "name": "Marge Simpson",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/a/a1/Marge_Simpsons.png",
       "normalized_name": "marge simpson",
       "gender": 1
     },
     {
       "id": 72,
       "name": "Bart Simpson",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/a/aa/Bart_simpson.png",
       "normalized_name": "bart simpson",
       "gender": 0
     },
     {
       "id": 6660,
       "name": "Homer Simpson",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/3/33/Homer.png",
       "normalized_name": "homer simpson",
       "gender": 0
     },
     {
       "id": 73,
       "name": "Lisa Simpson",
+      "url": "https://static.wikia.nocookie.net/simpsons/images/b/b7/Lisa_Simpsons.png",
       "normalized_name": "lisa simpson",
       "gender": 1
     }
