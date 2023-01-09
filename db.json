@@ -1,0 +1,44 @@
+{
+  "simpsons": [
+    {
+      "id": 67,
+      "name": "Maggie Simpson",
+      "normalized_name": "maggie simpson",
+      "gender": 1
+    },
+    {
+      "id": 71,
+      "name": "Marge Simpson",
+      "normalized_name": "marge simpson",
+      "gender": 1
+    },
+    {
+      "id": 72,
+      "name": "Bart Simpson",
+      "normalized_name": "bart simpson",
+      "gender": 0
+    },
+    {
+      "id": 6660,
+      "name": "Homer Simpson",
+      "normalized_name": "homer simpson",
+      "gender": 0
+    },
+    {
+      "id": 73,
+      "name": "Lisa Simpson",
+      "normalized_name": "lisa simpson",
+      "gender": 1
+    }
+  ],
+  "gender": [
+    {
+      "id": 1,
+      "name": "Homme"
+    },
+    {
+      "id": 2,
+      "name": "Femme"
+    }
+  ]
+}

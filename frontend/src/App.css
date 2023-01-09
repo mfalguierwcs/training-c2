@@ -1,0 +1,76 @@
+:root {
+  --background-color: #70D1FE;
+  --main-color: #de467c;
+  --secondary-color: #fed90f;
+  --light: #fffef7;
+  --dark: #2a2929;
+  --shadow: #8d8b86;
+  --light-shadow: rgba(255, 255, 255, 0.3);
+
+  --text-font: "Arial", sans-serif;
+  --title-font: "Courier New", sans-serif;
+
+  --container-width: 800px;
+  --spacing: 8px;
+  --spacing-lg: calc(var(--spacing) * 2);
+  --spacing-xl: calc(var(--spacing) * 4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--text-font);
+  font-size: 14pt;
+}
+
+h1 {
+  color: var(--secondary-color);
+  font-family: var(--title-font);
+  text-align: center;
+}
+
+.home {
+  display: flex;
+}
+
+.center {
+  text-align: center;
+}
+
+a:any-link {
+  text-decoration: none;
+}
+
+.mr-2 {
+  margin-right: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  display: flex;
+}
+
+.simpson-card {
+  border-radius: 5px;
+  background-color: var(--light);
+  padding: var(--spacing);
+}
+
+
+ul, ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ol li {
+  margin-bottom: 1rem;
+}
+
+
